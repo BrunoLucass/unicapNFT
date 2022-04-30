@@ -2,8 +2,10 @@
 
 body{
   background: #25272E;
+  
 }
-.nav {
+
+.navbar {
 
 }
 .header {
@@ -15,17 +17,14 @@ h1 {
   height: 46px;
   left: 645px;
   top: 120px;
-color: #38F2AF;
+  color: #38F2AF;
 }
-.subtitle {
+.header .subtitle {
+background: linear-gradient(91.32deg, #38F2AF 2.9%, #1B31CE 121.76%); 
 font-family: Poppins;
 font-size: 48px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 0em;
 text-align: center;
-color: linear-gradient( #38F2AF 2.9%, #1B31CE 121.76%);
-;
-
-
 }
