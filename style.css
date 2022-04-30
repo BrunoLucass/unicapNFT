@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700&display=swap');
+
+body{
+  background: #25272E;
+}
+.nav {
+
+}
+.header {
+  text-align: center;
+}
+h1 {
+  position: absolute;
+  width: 150px;
+  height: 46px;
+  left: 645px;
+  top: 120px;
+color: #38F2AF;
+}
+.subtitle {
+font-family: Poppins;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: linear-gradient( #38F2AF 2.9%, #1B31CE 121.76%);
+;
+
+
+}
