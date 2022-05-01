@@ -1,16 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body{
+  background: #373943;
+}
+
+header {
+  justify-content: space-around;
+  display: flex;
   background: #25272E;
+  padding: 21px 30px;
+  align-items: center;
+  border-bottom: 1px solid #383940;
+
+}
+
+.logo{
+  margin: auto;
+  display: block;
+}
+
+
+.navMenu a{
+  font-family: "Poppins";
+  text-decoration: none;
+  color: #38F2AF;
+  margin-left: 20px;
+}
+
+.navMenu a:hover{
+  color: white;
+}
+
+
+.searchBar{
+  align-items: center;
+  display: flex;
+
+}
+
+.input-icons{
+  position: absolute;
+  margin-left: 12px;
+}
+
+input{
+  font-family: "Poppins";
+  width: 320px;
+  height:34px;
+  background: #373943;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 35px;
+}
+
+::placeholder{
+  color: #828282;
+}
+
+.iconsBtn{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: 0px;
+  background: #828282;
+  margin-left: 10px;
+}
+
+.profile {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.principal{
+  margin-top: 171px;
+  margin-bottom: 131px;
+}
+
+.subtitle {
+  background: linear-gradient(91.32deg, #38F2AF 2.9%, #1B31CE 121.76%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.cryptocurrencys{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 90%;
+}
+
+.boxCripto{
+  z-index: 2;
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  color: white;
+  display: flex;
+  background: #373943;
+  padding: 15px;
+  border-radius: 5px;
+  
+  top: 55px;
+  
   
 }
 
-/* navbar styling */
+.boxCripto h1 {
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+ margin-left: 10px;
+}
+
+.marketplace{
+  background: #25272E;
+  height:500px;
+}
+
+.subtitle2 {
+  background: linear-gradient(91.32deg, #38F2AF 2.9%, #1B31CE 121.76%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 360px;
+  text-align: center;
+  
+  
+}
+
+
+.cardBox {
+  padding: 115px;
+  background: #25272E;
+}
+
+.cardboxIntern{
+  border-radius: 5px;
+  position: relative;
+  background: #373943;
+  bottom: 300px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card{
+  width: 258px;
+  height: 330px;
+  background: #25272E;
+  border-radius: 5px;
+}
+
+.titleNft{
+  font-family: "Poppins";
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #38F2AF;
+
+}
+.authorNft{
+  font-family: "Poppins";
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #828282;
+  
+}
+
+hr {
+  margin-top: 60px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-top: 17px;
+    margin-left: 6px;
+}
+
+.price h6{
+  font-size: 12px;
+  font-family: "Poppins";
+  margin-left: 10px;
+  color: #38F2AF;
+}
+
+button{
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid #38F2AF;
+  background-color: #25272E;
+  color: white;
+}
+
+button:hover{
+  background-color: #38F2AF;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* navbar styling
 .navbar{
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 30px 0;
+  padding: 21px 30px;
   font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
   top: 10%;
@@ -63,4 +282,4 @@ body{
   letter-spacing: 0em;
   
   text-align: center;
-}
+} */

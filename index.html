@@ -1,51 +1,137 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <title>UNICAPNFT</title>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <title>UNICANFT</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./assets/Logo 1.png">
+        </div>
+        <div class="navMenu">
+            <a href="#dashboard">DASHBOARD</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="searchBar">
+            <img class="input-icons" src="./assets/search.png">
+            <input type="text" placeholder="Search Artwork">
+        </div>
+        <div class="buttonsNav">
+            <button class="iconsBtn">
+                <img src="./assets/mail.png">
+            </button>
+            <button class="iconsBtn">
+                <img src="./assets/notifications.png">
+            </button>
+            <button class="iconsBtn">
+                <img src="./assets/wallet.png">
+            </button>
+        </div>
+        <div class="profile">
+            <img src="./assets/bg.png">
+            <h2>Marcio Bueno</h2>
+        </div>
+    </header>
 
-  <body>
-    
-    <div class="navbar">
-      <nav>
-      <h2 class="logo">UNICAPNFT</h2>
-      <ul class="menu">
-          <li><a href="#dashboard">Dashboard</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#search">Search Artwork</a></li>
-          <li><a href="#icon-mensage">icon</a></li>
-          <li><a href="#icon-news(?)">icon</a></li>
-          <li><a href="#icon-wallet">icon</a></li>
-          <li><a href="#username">Usuario</a></li>
-        </ul>
-      </nav>
-    </div>
-    
+    <main>
+        <div class="principal">
+            <img class="logo" src="./assets/Logo 2.png" alt="logo">
+            <h1 class="subtitle">Descubra artes digitais e <br> Colecione NFTs.</h1>
+        </div>
+        <div class="cryptocurrencys">
+            <div class="boxCripto">
+                <img src="./assets/Bitcoin Value.png" alt="bitcoin value">
+                <h1>Bitcoin
+                    <ul id="btc"></ul>
+                </h1>
+                
+            </div>
+            
+            <div class="boxCripto">
+                <img src="./assets/Eth Value.png" alt="bitcoin value">
+                <h1>Etherium
+                    <ul id="eth"></ul>
+                </h1>
+               
+            </div>
 
-      <div class="header">
-        <h1>UNICAPNFT</h1>
-        <p class="subtitle">Descubra artes digitais e Colecione NFTs.</p>
-      </div>
+            <div class="boxCripto">
+                <img src="./assets/USDT Value.png" alt="bitcoin value">
+                <h1>USDT
+                    <ul id="usdt"></ul>
+                </h1>
+                
+            </div>
+        </div>
+    </main>
 
-      
-      <div >
-        <h1>Bitcoin</h1>
-        <ul id="btc"></ul>
-        <h1>Ethereum</h1>
-        <ul id="eth"></ul>
-        <h1>USDT</h1>
-        <ul id="usdt"></ul>
-        <h1>novo</h1>
-      </div>
+
+    <section>
+        <div class="marketplace">
+            <h1 class="subtitle2">Marketplace</h1>
+        </div>
+       <div class="cardBox">
+           <div class="cardboxIntern">
+
+
+               <div class="card">
+                    <img src="./assets/nft1.png">
+                    <h5 class="titleNft">NFT 1</h5>
+                    <h6 class="authorNft">UNICAP</h6>
+                    <hr>
+                    <div class="price">
+                        <h6>Fixed Price</h6>
+                        <button>0.01 ETH</button>
+                    </div>
+               </div>
+
+
+               <div class="card">
+                <img src="./assets/nft2.png">
+                <h5 class="titleNft">NFT 2</h5>
+                <h6 class="authorNft">UNICAP</h6>
+                <hr>
+                <div class="price">
+                    <h6>Fixed Price</h6>
+                    <button>0.01 ETH</button>
+                </div>
+           </div>
+
+
+           <div class="card">
+            <img src="./assets/nft3.png">
+            <h5 class="titleNft">NFT 3</h5>
+            <h6 class="authorNft">UNICAP</h6>
+            <hr>
+            <div class="price">
+                <h6>Fixed Price</h6>
+                <button>0.01 ETH</button>
+            </div>
+       </div>
+
+       <div class="card">
+        <img src="./assets/nft4.png">
+        <h5 class="titleNft">NFT 4</h5>
+        <h6 class="authorNft">UNICAP</h6>
+        <hr>
+        <div class="price">
+            <h6>Fixed Price</h6>
+            <button>0.01 ETH</button>
+        </div>
+   </div>
+
+            </div>
+        </div>
+        
+    </section>
 
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
