@@ -44,4 +44,8 @@ function main(){
     //
 }
 
+function cedo(){
+    alert("Você chegou cedo, isto ainda não foi implementado :)");
+}
+
 main()
